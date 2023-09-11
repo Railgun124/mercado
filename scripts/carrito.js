@@ -225,7 +225,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 				name : 'Contadora de billetes',
 				img : 'assets/img/p44.jpeg',
 				price : 1499.00,
-				desc : 'Maquina contadora de billetes, detecta falsos',
+				desc : 'Maquina contadora de billetes, detecta billetes falsos',
 				stock : 19
 			},
 			{
