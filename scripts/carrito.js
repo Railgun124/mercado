@@ -30,7 +30,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 		var productos = [
 			{
 				id : 1,
-				img : 'assets/img/p29.jpg',
+				img : 'assets/img/xbox.jpeg',
 				name : 'Xbox Series S 512GB',
 				price : 5200.00,
 				desc : 'Color Blanco',
@@ -39,7 +39,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 2,
 				name : 'Laptop Lenovo',
-				img : 'assets/img/p30.jpg',
+				img : 'assets/img/laptop.jpeg',
 				price : 7299,
 				desc : 'Ryzen 3 7320u 8gb 256gb ssd',
 				stock : 23
@@ -47,7 +47,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 3,
 				name : 'Cámara Seguridad',
-				img : 'assets/img/p31.jpg',
+				img : 'assets/img/camara_vigilancia.jpeg',
 				price : 199.00,
 				desc : 'Color Negro punta fina',
 				stock : 32
@@ -55,7 +55,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 4,
 				name : 'Colchón Restonic',
-				img : 'assets/img/p1.jpeg',
+				img : 'assets/img/colchon.jpeg',
 				price : 3450,
 				desc : 'Matrimonial Ortopédico + 2 Almohadas ',
 				stock : 44
@@ -63,7 +63,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 5,
 				name : 'Pistola Impacto',
-				img : 'assets/img/p2.webp',
+				img : 'assets/img/taladro.jpeg',
 				price : 877,
 				desc : 'Llave Inalámbrica Batería De 2 Pilas 1/2',
 				stock : 100
@@ -71,7 +71,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 6,
 				name : 'Impresora Epson',
-				img : 'assets/img/p3.webp',
+				img : 'assets/img/impresora.jpeg',
 				price : 4559.00,
 				desc : 'Color multifunción Epson EcoTank L3250 con wifi negra 110V',
 				stock : 18
@@ -79,7 +79,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 7,
 				name : 'Mesa Plegable',
-				img : 'assets/img/p4.webp',
+				img : 'assets/img/mesa.jpeg',
 				price : 881.00,
 				desc : 'Plástico Portátil Jardín Tipo Portafolio 1.80m',
 				stock : 191
@@ -87,7 +87,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 8,
 				name : 'Proyector Portátil',
-				img : 'assets/img/p5.jpg',
+				img : 'assets/img/proyector.jpeg',
 				price : 1728.00,
 				desc : 'Profesional Android Wifi Bluetooth 4k',
 				stock : 159
@@ -95,7 +95,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 9,
 				name : 'Ninja - Licuadora',
-				img : 'assets/img/p6.jpg',
+				img : 'assets/img/licuadora.jpeg',
 				price : 3805.00,
 				desc : 'Professional Plus con Auto-IQ y jarra trituradora, en acabado negro y acero inoxidable',
 				stock : 90
@@ -103,7 +103,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 10,
 				name : 'Bicicleta Deportiva',
-				img : 'assets/img/p9.jpeg',
+				img : 'assets/img/bicicleta.jpeg',
 				price : 2699.00,
 				desc : 'Rodada 26 con 21 velocidades, marca RACK y PACK',
 				stock : 14
@@ -111,7 +111,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 11,
 				name : 'Hisense Pantalla',
-				img : 'assets/img/p10.jpeg',
+				img : 'assets/img/televisor.jpeg',
 				price : 8300.00,
 				desc : '4k SmartTV ULED de 55 pulgadas',
 				stock : 29
@@ -119,7 +119,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 12,
 				name : 'Camara Cannon',
-				img : 'assets/img/p11.png',
+				img : 'assets/img/camara_video.jpeg',
 				price : 44999.00,
 				desc : 'Camara con lente de 24-105mm',
 				stock : 7
@@ -127,7 +127,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 13,
 				name : 'HUNTER Ventilador',
-				img : 'assets/img/p15.jpg',
+				img : 'assets/img/ventilador_techo.jpeg',
 				price : 3781.00,
 				desc : 'Ventilador de techo con luz, 5 aspas reversibles, 54 pulgadas',
 				stock : 23
@@ -135,7 +135,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 14,
 				name : 'Mochila CARS',
-				img : 'assets/img/p16.jpg',
+				img : 'assets/img/mochila_macuins.jpeg',
 				price : 856.00,
 				desc : 'Mini mochila de 10 pulgadas',
 				stock : 6
@@ -143,7 +143,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 15,
 				name : 'Amazon echo',
-				img : 'assets/img/p17.jpg',
+				img : 'assets/img/echo_dot.jpeg',
 				price : 750.00,
 				desc : '5ta generacion, asistente virtual alexa',
 				stock : 28
@@ -151,8 +151,8 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 16,
 				name : 'Carpa Toldo',
-				img : 'assets/img/p18.jpg',
-				price : 971.00,
+				img : 'assets/img/carpa.jpeg',
+				price : 1071.00,
 				desc : '3x3 reforzado, plegable, impermeable, azul y rojo',
 				stock : 19
 			},
@@ -167,7 +167,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 18,
 				name : 'Nintendo Switch',
-				img : 'assets/img/p24.jpg',
+				img : 'assets/img/nintendo.jpeg',
 				price : 5089.00,
 				desc : 'OLED 64GB, rojo, neon, azul y negro',
 				stock : 18
@@ -175,15 +175,15 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 19,
 				name : 'Ventilador Industrial',
-				img : 'assets/img/p21.jpg',
+				img : 'assets/img/ventilador_piso.jpeg',
 				price : 819.00,
 				desc : '3 en 1, de pie de pared y piso',
 				stock : 23
 			},
 			{
 				id : 20,
-				name : 'Frigobar',
-				img : 'assets/img/p22.jpg',
+				name : 'Frigobar gris',
+				img : 'assets/img/mini_refrigerador.jpeg',
 				price : 5250.00,
 				desc : 'Mini refrigerador hasta 100 latas',
 				stock : 13
@@ -199,15 +199,15 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 22,
 				name : 'Microondas Mabe',
-				img : 'assets/img/p41.jpg',
+				img : 'assets/img/microondas.jpeg',
 				price : 1910.00,
 				desc : 'silver 20L',
 				stock : 15
 			},
 			{
 				id : 23,
-				name : 'Casco KOV',
-				img : 'assets/img/p42.jpg',
+				name : 'Casco KOV _   ',
+				img : 'assets/img/casco.jpeg',
 				price : 1413.00,
 				desc : 'Abatible con luz',
 				stock : 23
@@ -215,7 +215,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 24,
 				name : 'Plancha de ropa',
-				img : 'assets/img/p43.jpg',
+				img : 'assets/img/plancha.jpeg',
 				price : 564.00,
 				desc : 'Ceramica con vapor vertical',
 				stock : 17
@@ -223,8 +223,8 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			{
 				id : 25,
 				name : 'Contadora de billetes',
-				img : 'assets/img/p44.jpeg',
-				price : 1499.00,
+				img : 'assets/img/contador_dinero.jpeg',
+				price : 1411.00,
 				desc : 'Maquina contadora de billetes, detecta billetes falsos',
 				stock : 19
 			},
@@ -238,7 +238,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 			},
 			{
 				id : 27,
-				name : 'Stiky notes',
+				name : 'Stiky notes, variedad',
 				img : 'assets/img/p46.jpg',
 				price : 150.00,
 				desc : 'Caja con 24 blocks de diferentes colores',
