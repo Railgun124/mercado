@@ -3,8 +3,8 @@
 
 <head>
 	<title>Empleados</title>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
@@ -29,12 +29,14 @@
 
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+	
+	<link rel="stylesheet" type="text/css" href="styles/news_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
 </head>
 
 <body>
-
+<div class="super_container">
+	<!-- Header -->
 	<header class="header d-flex flex-row">
 		<div class="header_content d-flex flex-row align-items-center">
 			<!-- Logo -->
@@ -43,15 +45,22 @@
 					<img src="images/logo.png" alt="">
 				</div>
 			</div>
-
 			<!-- Main Navigation -->
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href="index.html">INICIO</a></li>
-						<li class="main_nav_item"><a href="productos.html">PRODUCTOS</a></li>
-						<li class="main_nav_item"><a href="empleados.html">EMPLEADOS</a></li>
-						<li class="main_nav_item"><a href="proveedores.html">PROVEEDORES</a></li>
+						<li class="main_nav_item">
+							<a href="index.html">INICIO</a>
+						</li>
+						<li class="main_nav_item">
+							<a href="productos.html">PRODUCTOS</a>
+						</li>
+						<li class="main_nav_item">
+							<a href="empleados.html">EMPLEADOS</a>
+						</li>
+						<li class="main_nav_item">
+							<a href="proveedores.html">PROVEEDORES</a>
+						</li>
 					</ul>
 				</div>
 			</nav>
@@ -60,52 +69,69 @@
 			<img src="images/phone-call.svg" alt="">
 			<span>+52 311 150 5560</span>
 		</div>
-
 		<!-- Hamburger -->
 		<div class="hamburger_container">
 			<i class="fas fa-bars trans_200"></i>
 		</div>
-
 	</header>
-
 	<!-- Menu -->
 	<div class="menu_container menu_mm">
-
 		<!-- Menu Close Button -->
 		<div class="menu_close_container">
-			<div class="menu_close"></div>
+			<div class="menu_close">
+			</div>
 		</div>
-
 		<!-- Menu Items -->
 		<div class="menu_inner menu_mm">
 			<div class="menu menu_mm">
 				<ul class="menu_list menu_mm">
-					<li class="menu_item menu_mm"><a href="#">INICIO</a></li>
-					<li class="menu_item menu_mm"><a href="#">PRODUCTOS</a></li>
-					<li class="menu_item menu_mm"><a href="courses.html">EMPLEADOS</a></li>
-					<li class="menu_item menu_mm"><a href="elements.html">PROVEEDORES</a></li>
-
+					<li class="menu_item menu_mm">
+						<a href="index.html">INICIO</a>
+					</li>
+					<li class="menu_item menu_mm">
+						<a href="productos.html">PRODUCTOS</a>
+					</li>
+					<li class="menu_item menu_mm">
+						<a href="empleados.html">EMPLEADOS</a>
+					</li>
+					<li class="menu_item menu_mm">
+						<a href="proveedores.html">PROVEEDORES</a>
+					</li>
+				</ul>
 				<!-- Menu Social -->
-
 				<div class="menu_social_container menu_mm">
 					<ul class="menu_social menu_mm">
-						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
-						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li class="menu_social_item menu_mm">
+							<a href="#">
+								<i class="fab fa-pinterest"></i>
+							</a>
+						</li>
+						<li class="menu_social_item menu_mm">
+							<a href="#">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="menu_social_item menu_mm">
+							<a href="#">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li class="menu_social_item menu_mm">
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="menu_social_item menu_mm">
+							<a href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
 					</ul>
 				</div>
-
 				<div class="menu_copyright menu_mm">Colorlib All rights reserved</div>
 			</div>
-
 		</div>
-
 	</div>
-
-	<!-- Home -->
-
 	<!-- Home -->
 
 	<div class="home">
@@ -257,7 +283,7 @@
 						<div class="d-flex mb-4">
 							<div class="img" style="background-image: url(images/img3.jpg);"></div>
 							<div class="info ml-4">
-								<h3><a href="#">Martín Barrón</a></h3>
+								<h3><a href="#">Martin Barrón</a></h3>
 								<span class="position">Especialista en Seguridad de Datos</span>
 							</div>
 						</div>
@@ -429,6 +455,19 @@
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap4/popper.js"></script>
+	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="js/news_custom.js"></script>
+
+</div>
 </body>
 
 </html>

@@ -11,4 +11,5 @@ Sandra Lizbeth Esperanza Machuca
 José Gustavo Aguilar Correa  
 Carrillo Rubio José Giovanni  
 Flores Solís María Fernanda
-Estrada Garcia Christopher Jair   
+Estrada Garcia Christopher Jair
+Martin Ernesto Barrón Doroteo

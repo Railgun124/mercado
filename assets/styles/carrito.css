@@ -478,7 +478,7 @@ body span, body p, body h3, body small, body h4, body h5, body h1, body a, body 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	font-weight: 900;
-	color: #ffff;
+	color: #3a3a3a;
 	vertical-align: middle;
 	text-transform: uppercase;
 	margin-left: 3px;
@@ -571,7 +571,7 @@ body span, body p, body h3, body small, body h4, body h5, body h1, body a, body 
 {
 	font-size: 24px;
 	padding: 10px;
-	color: #ffff;
+	color: #3a3a3a;
 }
 .hamburger_container:hover i
 {
@@ -644,7 +644,7 @@ body span, body p, body h3, body small, body h4, body h5, body h1, body a, body 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
-	color: #ffff;
+	color: #3a3a3a;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -674,7 +674,7 @@ body span, body p, body h3, body small, body h4, body h5, body h1, body a, body 
 	top: 9px;
 	width: 21px;
 	height: 3px;
-	background: #ffff;
+	background: #3a3a3a;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -690,7 +690,7 @@ body span, body p, body h3, body small, body h4, body h5, body h1, body a, body 
 	content: '';
 	width: 3px;
 	height: 21px;
-	background: #ffff;
+	background: #3a3a3a;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -726,7 +726,11 @@ body span, body p, body h3, body small, body h4, body h5, body h1, body a, body 
 .menu_social_item
 {
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 27px;
+}
+.menu_social_item:last-child
+{
+	margin-right: 0px;
 }
 .menu_social_item a i
 {
@@ -1217,8 +1221,8 @@ a, a:hover, a:visited, a:active, a:link
 {
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgb(255, 255, 255);
-	text-shadow: rgb(255, 255, 255);
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 p a:active
 {
@@ -1253,8 +1257,8 @@ h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgb(255, 255, 255) 0 0 1px;
-	text-shadow: rgb(255, 255, 255) 0 0 1px;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 h1::selection, 
 h2::selection, 
@@ -1262,38 +1266,35 @@ h3::selection,
 h4::selection, 
 h5::selection, 
 h6::selection
-{
-	
-}
 ::-webkit-input-placeholder
 {
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: #ffffff !important;
+	color: #a5a5a5 !important;
 }
 :-moz-placeholder /* older Firefox*/
 {
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: #ffffff !important;
+	color: #a5a5a5 !important;
 }
 ::-moz-placeholder /* Firefox 19+ */ 
 {
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: #ffffff !important;
+	color: #a5a5a5 !important;
 } 
 :-ms-input-placeholder
 { 
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: #ffffff!important;
+	color: #a5a5a5 !important;
 }
 ::input-placeholder
 {
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: #ffffff !important;
+	color: #a5a5a5 !important;
 }
 .form-control
 {
